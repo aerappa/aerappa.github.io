@@ -1,0 +1,10 @@
+---
+title: "Enseignement"
+---
+
+## Enseignements actuels et passés
+
+<!-- TODO : ajouter les enseignements Sorbonne Université / LJLL le cas échéant -->
+
+- Chargé de travaux dirigés, **Introduction aux systèmes dynamiques**, ENSTA Paris — [automne 2024](https://synapses.ensta-paris.fr/catalogue/2024-2025/ue/2/APM-3AO02-TA-), [automne 2025](https://synapses.ensta-paris.fr/catalogue/2025-2026/ue/2/APM-3AO02-TA-systemes-dynamiques-stabilite-et-commande)
+- Chargé de travaux dirigés, **Optimisation quadratique**, ENSTA Paris — [printemps 2025](https://synapses.ensta-paris.fr/catalogue/2024-2025/ue/1/apm-3ao01-ta-optimisation-quadratique)

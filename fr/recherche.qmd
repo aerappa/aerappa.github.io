@@ -1,0 +1,38 @@
+---
+title: "Recherche"
+---
+
+Mes travaux portent sur le développement d'algorithmes robustes, extensibles et mathématiquement fondés pour les EDP à grande échelle. Le fil conducteur est la **propagation d'ondes à haute fréquence dans des milieux complexes** : la décomposition de domaine comme prisme algorithmique, l'analyse explicite en fréquence et semiclassique comme cadre explicatif, et l'implémentation HPC soignée comme terrain d'épreuve.
+
+## Décomposition de domaine pour les équations de Maxwell anisotropes
+
+*Travaux en cours au LJLL, dans le cadre d'un projet ERC Synergy.* <!-- TODO : nom du projet, collaborateurs, liens -->
+
+J'étudie les **méthodes de décomposition de domaine (DDM) pour les équations de Maxwell en régime harmonique dans des milieux anisotropes et hétérogènes**, motivées par des applications telles que les matériaux absorbants radar (RAM). Cela combine :
+
+- l'**analyse de convergence explicite en fréquence** des DDM, reliant le comportement des solveurs aux estimations de résolvante semiclassiques et à la géométrie du piégeage ;
+- la **modélisation de l'absorption et de l'impédance** pour des revêtements anisotropes à pertes, où les phénomènes physiques (écran de Salisbury, résonances de Fabry–Pérot, biréfringence, polarisation croisée) conditionnent directement la performance des solveurs ;
+- une **implémentation parallèle à grande échelle** dans [FreeFem++](https://freefem.org/) / [ffddm](https://doc.freefem.org/documentation/ffddm/index.html), avec des expériences numériques et des cas de vérification soigneusement conçus.
+
+## Discrétisations pour Maxwell en régime harmonique : la méthode CHDG
+
+*Travaux associés : [Rappaport, Chaumont-Frelet, Modave (prépublication HAL, 2025)](https://hal.science/hal-05016261)*
+
+La méthode CHDG — une méthode de Galerkine discontinue hybridable avec variables de transmission, initialement développée pour l'acoustique — n'avait pas été étendue aux équations de Maxwell 3D complètes. Mes travaux en fournissent la première analyse et implémentation :
+
+- une **discrétisation hybridable stable** pour les champs électromagnétiques à haute fréquence, imposant la continuité tangentielle via une variable de trace hybride ;
+- l'**élimination locale bien posée** : les systèmes de condensation statique définissant les champs locaux sont démontrés uniquement résolubles ;
+- un **solveur hybride contractant** : le problème global de trace admet une itération de point fixe contractante (dans l'esprit de l'UWVF), avec des estimations valables en régime haute fréquence ;
+- une **validation à grande échelle** : expériences parallèles d'ordre élevé avec ≈ 13 millions de degrés de liberté.
+
+## Estimation d'erreur a posteriori et algorithmes adaptatifs
+
+*Travaux associés : [Févotte, Rappaport, Vohralík (Comput. Geosci., 2024)](https://link.springer.com/article/10.1007/s10596-024-10309-7) · [Févotte, Rappaport, Vohralík (CMAME, 2024)](https://www.sciencedirect.com/science/article/pii/S0045782523006825) · [Harnist, Mitra, Rappaport, Vohralík (HAL, 2023)](https://hal.science/hal-04033438)*
+
+Un thème récurrent de mes travaux est le développement d'**estimateurs d'erreur a posteriori garantis** et d'algorithmes adaptatifs pour les EDP non linéaires et non lisses :
+
+- des **estimateurs par flux équilibrés** pour des problèmes elliptiques non lisses, donnant des bornes supérieures garanties de l'erreur en énergie et distinguant les contributions de la régularisation, de la linéarisation et de la discrétisation — conduisant à des critères d'arrêt adaptatifs pour chaque composante ;
+- des stratégies de **régularisation adaptative** rendant les non-linéarités non lisses traitables par linéarisation de Newton, en n'appliquant le lissage que là où les estimateurs l'exigent ;
+- l'**équation de Richards et les écoulements en milieux poreux**, où ces outils produisent des solveurs nettement plus robustes pour des lois constitutives dégénérées.
+
+L'objectif d'ensemble : des algorithmes adaptatifs qui ajustent de manière autonome les paramètres de régularisation, les tolérances de Newton et la résolution du maillage en réponse à des estimateurs d'erreur certifiés.

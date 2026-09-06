@@ -1,0 +1,27 @@
+---
+title: "Publications"
+---
+
+## Journal articles
+
+::: {.pub-list}
+
+- **A. Harnist, K. Mitra, A. E. Rappaport, M. Vohralík.** Robust augmented energy a posteriori estimates for Lipschitz and strongly monotone elliptic problems, *IMA Journal of Numerical Analysis*, drag036 (2026). [journal](https://doi.org/10.1093/imanum/drag036) · [preprint](https://hal.science/hal-04033438)
+
+- **A. E. Rappaport, T. Chaumont-Frelet, A. Modave.** A Hybridizable Discontinuous Galerkin Method with Transmission Variables for Time-Harmonic Electromagnetic Problems, *SIAM Journal on Scientific Computing* 48, no. 4 (2026), B629–B650. [journal](https://doi.org/10.1137/25M1756818) · [preprint](https://hal.science/hal-05016261)
+
+- **F. Févotte, A. E. Rappaport, M. Vohralík.** Adaptive regularization for the Richards equation, *Computational Geosciences* 28, no. 6 (2024), 1371–1388. [journal](http://dx.doi.org/10.1007/s10596-024-10309-7) · [preprint](https://hal.science/hal-04266827)
+
+- **F. Févotte, A. E. Rappaport, M. Vohralík.** Adaptive regularization, discretization, and linearization for nonsmooth problems based on primal-dual gap estimators, *Computer Methods in Applied Mechanics and Engineering* 418, no. B (2024), 116558. [journal](https://doi.org/10.1016/j.cma.2023.116558) · [preprint](https://hal.science/hal-04105560)
+
+- **J. H. Chaudhry, A. E. Rappaport, J. N. Shadid.** An a posteriori error analysis for the equations of stationary incompressible magnetohydrodynamics, *SIAM Journal on Scientific Computing* 43, no. 2 (2021), B354–B380. [journal](https://doi.org/10.1137/20M1342975) · [preprint](https://arxiv.org/abs/2004.10292)
+:::
+
+## Preprints
+
+::: {.pub-list}
+
+- **M. Bonazzoli, P. Ciarlet Jr., A. Modave, A. E. Rappaport.** Analysis of a two-level domain decomposition preconditioner for the time-harmonic Maxwell equations in anisotropic media, 2026. [HAL](https://hal.science/hal-05572507)
+
+- **F. Févotte, A. E. Rappaport.** A thread parallel implementation of the equilibrated flux in Julia, 2024. [HAL](https://hal.science/hal-04537446)
+:::

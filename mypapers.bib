@@ -1,0 +1,123 @@
+
+
+@article{HMRV2026,
+    author = {Harnist, André and Mitra, Koondanibha and Rappaport, Ari E. and Vohralík, Martin},
+    title = {Robust augmented energy a posteriori estimates for Lipschitz and strongly monotone elliptic problems},
+    journal = {IMA Journal of Numerical Analysis},
+    pages = {drag036},
+    year = {2026},
+    month = {07},
+    preprint = {https://hal.science/hal-04033438},
+    abstract = {In this paper, we design a posteriori estimates for finite-element approximations of nonlinear elliptic problems satisfying strong-monotonicity and Lipschitz-continuity properties. These estimates include, and build on, any iterative linearization method that satisfies a few clearly identified assumptions; this, in particular, encompasses the Picard, Newton and Zarantonello linearizations. The estimates give a guaranteed upper bound on an augmented energy difference (reliability with constant one), as well as a lower bound (efficiency up to a generic constant). We prove that for the Zarantonello linearization, this generic constant depends only on the space dimension, the mesh shape regularity and possibly the approximation polynomial degree in four or more space dimensions, making the estimates robust with respect to the strength of the nonlinearity. For the other linearizations, the additional overestimation factor only depends on the local variation of the linearization operators and is fully computable. We also derive similar estimates for the usual energy difference. These only depend locally on the nonlinearity and improve the established bounds. Numerical experiments illustrate and validate the theoretical results, for both smooth and singular solutions.},
+    issn = {0272-4979},
+    doi = {10.1093/imanum/drag036},
+    url = {https://doi.org/10.1093/imanum/drag036},
+    eprint = {https://academic.oup.com/imajna/advance-article-pdf/doi/10.1093/imanum/drag036/69579616/drag036.pdf},
+}
+
+@article{RCM2026,
+author = {Rappaport, A. E. and Chaumont-Frelet, T. and Modave, A.},
+title = {A Hybridizable Discontinuous Galerkin Method with Transmission Variables for Time-Harmonic Electromagnetic Problems},
+journal = {SIAM Journal on Scientific Computing},
+volume = {48},
+number = {4},
+pages = {B629-B650},
+year = {2026},
+doi = {10.1137/25M1756818},
+preprint = {https://hal.science/hal-05016261},
+
+URL = { 
+        https://doi.org/10.1137/25M1756818 
+},
+eprint = { 
+        https://doi.org/10.1137/25M1756818
+}
+,
+    abstract = { Abstract. The CHDG method is a hybridizable discontinuous Galerkin (HDG) finite element method suitable for the iterative solution of time-harmonic wave propagation problems. Hybrid unknowns corresponding to transmission variables are introduced at the element interfaces, and the physical unknowns inside the elements are eliminated, resulting in a hybridized system with favorable properties for fast iterative solution. In this paper, we extend the CHDG method, initially studied for the Helmholtz equation, to the time-harmonic Maxwell equations. We prove that the local problems stemming from hybridization are well-posed and that the fixed-point iteration naturally associated to the hybridized system is contractive. We propose a 3D implementation with a discrete scheme based on nodal basis functions. The resulting solver and different iterative strategies are studied with several numerical examples using a high-performance parallel C++ code. }
+}
+
+@Article{FRV2024Richards,
+  author    = {Févotte, Fran\c{c}ois and Rappaport, Ari E. and Vohralík, Martin},
+  journal   = {Comput. Geosci.},
+  title     = {Adaptive regularization for the Richards equation},
+  year      = {2024},
+  issn      = {1573-1499},
+  month     = sep,
+  number    = {6},
+  pages     = {1371–1388},
+  volume    = {28},
+  doi       = {10.1007/s10596-024-10309-7},
+  fjournal  = {Computational Geosciences},
+  publisher = {Springer Science and Business Media LLC},
+  url       = {http://dx.doi.org/10.1007/s10596-024-10309-7},
+  preprint  = {https://hal.science/hal-04266827},
+}
+
+
+
+@article {FRV2024,
+    AUTHOR = {F\'evotte, Fran\c cois and Rappaport, Ari E. and Vohral\'ik,
+              Martin},
+     TITLE = {Adaptive regularization, discretization, and linearization for
+              nonsmooth problems based on primal-dual gap estimators},
+   JOURNAL = {Comput. Methods Appl. Mech. Engrg.},
+  FJOURNAL = {Computer Methods in Applied Mechanics and Engineering},
+    VOLUME = {418},
+    NUMBER = {B},
+      YEAR = {2024},
+     PAGES = {Paper No. 116558, 33},
+      ISSN = {0045-7825,1879-2138},
+   MRCLASS = {65N30 (35J25 35J60 49K10 49M25)},
+  MRNUMBER = {4666163},
+MRREVIEWER = {R\"udiger\ Verf\"urth},
+       DOI = {10.1016/j.cma.2023.116558},
+       URL = {https://doi.org/10.1016/j.cma.2023.116558},
+  PREPRINT = {https://hal.science/hal-04105560},
+}
+
+@article {CRS2021,
+    AUTHOR = {Chaudhry, Jehanzeb H. and Rappaport, Ari E. and Shadid, John
+              N.},
+     TITLE = {An a posteriori error analysis for the equations of stationary
+              incompressible magnetohydrodynamics},
+   JOURNAL = {SIAM J. Sci. Comput.},
+  FJOURNAL = {SIAM Journal on Scientific Computing},
+    VOLUME = {43},
+      YEAR = {2021},
+    NUMBER = {2},
+     PAGES = {B354--B380},
+      ISSN = {1064-8275,1095-7197},
+   MRCLASS = {65N30 (65N15 65N50 76W05)},
+  MRNUMBER = {4229255},
+MRREVIEWER = {Alberto\ Valli},
+       DOI = {10.1137/20M1342975},
+       URL = {https://doi.org/10.1137/20M1342975},
+  PREPRINT = {https://arxiv.org/abs/2004.10292},
+}
+
+
+@unpublished{FV2024Julia,
+  TITLE = {{A thread parallel implementation of the equilibrated flux in Julia}},
+  AUTHOR = {F{\'e}votte, Fran{\c c}ois and Rappaport, Ari E.},
+  URL = {https://hal.science/hal-04537446},
+  NOTE = {working paper or preprint},
+  YEAR = {2024},
+  MONTH = Apr,
+  KEYWORDS = {Finite elements ; A posteriori error estimation ; Shared-memory parallelism ; Julia programming language},
+  PDF = {https://hal.science/hal-04537446v1/file/eqflux.pdf},
+  HAL_ID = {hal-04537446},
+  HAL_VERSION = {v1},
+}
+
+@unpublished{BCRM2026,
+  TITLE = {{Analysis of a two-level domain decomposition preconditioner for the time-harmonic Maxwell equations in anisotropic media}},
+  AUTHOR = {Bonazzoli, Marcella and Ciarlet, Jr., Patrick and Modave, Axel and Rappaport, Ari E.},
+  URL = {https://hal.science/hal-05572507},
+  NOTE = {working paper or preprint},
+  YEAR = {2026},
+  MONTH = Mar,
+  KEYWORDS = {Domain decomposition ; Additive Schwarz preconditioner ; Time-harmonic Maxwell equations ; Anisotropic media ; GMRES ; Field-of-values},
+  PDF = {https://hal.science/hal-05572507v1/file/ddmaniso.pdf},
+  HAL_ID = {hal-05572507},
+  HAL_VERSION = {v1},
+}
