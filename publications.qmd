@@ -25,3 +25,12 @@ title: "Publications"
 
 - **F. Févotte, A. E. Rappaport.** A thread parallel implementation of the equilibrated flux in Julia, 2024. [HAL](https://hal.science/hal-04537446)
 :::
+
+## Theses
+
+::: {.pub-list}
+
+- **A. E. Rappaport.** A posteriori error estimates and adaptivity in numerical approximation of PDEs: regularization, linearization, discretization, and floating point precision, PhD thesis, Sorbonne Université, 2024. [theses.fr](https://theses.fr/2024SORUS057)
+
+- **A. E. Rappaport.** An a posteriori error analysis of stationary incompressible magnetohydrodynamics, Master's thesis, University of New Mexico, 2020. [Digital Repository](https://digitalrepository.unm.edu/math_etds/150/)
+:::

@@ -1,0 +1,25 @@
+---
+title: "Exposés"
+---
+
+## Conférences internationales
+
+- [WAVE-NED Conference on Analysis, Modeling and Numerics of Waves](https://sites.cwi.nl/en/scs/events/wave-ned-conference-on-analysis-modeling-and-numerics-of-waves/) (Delft, Pays-Bas, 2026)
+- [International Conference on Computational Methods in Applied Mathematics (CMAM)](https://www.tuwien.at/en/mg/asc/event/cmam2026) (Vienne, Autriche, 2026)
+- [CANUM — Congrès National d'Analyse Numérique](https://canum2026.math.cnrs.fr/en/) (Saint-Jacut-de-la-Mer, France, 2026)
+- [29th International Conference on Domain Decomposition Methods](https://www.dd29.polimi.it/) (Milan, Italie, 2025)
+- [International Conference on Computational Methods in Applied Mathematics](https://ins.uni-bonn.de/group/gedicke/page/cmam-10) (Bonn, Allemagne, 2024)
+- [International Conference on Spectral and High Order Methods](https://icosahom2023.org/) (Séoul, Corée du Sud, 2023)
+- [SIAM Conference on Mathematical and Computational Issues in the Geosciences](https://www.siam.org/conferences-events/past-event-archive/gs23/) (Bergen, Norvège, 2023)
+- [World Congress on Computational Mechanics](https://www.wccm2022.org/) (Yokohama, Japon, 2022)
+- [SIAM Conference on Computational Science and Engineering](https://www.siam.org/conferences-events/past-event-archive/cse19/) (Spokane, États-Unis, 2019)
+
+## Séminaires sur invitation
+
+- Séminaire du Laboratoire de Mathématiques d'Orsay (Orsay, France, 2026)
+- Séminaire de l'Institut de Mathématiques de Marseille (Marseille, France, 2026)
+- Séminaire du Laboratoire Jean Kuntzmann (Grenoble, France, 2026)
+- Séminaire du Laboratoire AGM (Cergy, France, 2025)
+- Séminaire conjoint LJLL / Inria (Paris, France, 2025)
+- Séminaire de l'équipe IMAG (Montpellier, France, 2025)
+- UNM Applied Mathematics Seminar Series (Albuquerque, États-Unis, 2020)

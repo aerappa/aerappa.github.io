@@ -1,0 +1,11 @@
+---
+title: "CV"
+---
+
+*Disponible en anglais uniquement.*
+
+[Télécharger le PDF](../assets/cv_en.pdf)
+
+```{=html}
+<iframe src="../assets/cv_en.pdf" class="cv-embed" title="Curriculum vitae"></iframe>
+```

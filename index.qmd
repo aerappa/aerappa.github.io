@@ -3,13 +3,13 @@ title: "Welcome"
 ---
 
 <!-- TODO: copy your photo from the old site to assets/buste.jpg -->
-![](./assets/budapest1.jpg){.portrait alt="Portrait of Ari Rappaport"}
+![](./assets/headshot.jpeg){.portrait alt="Portrait of Ari Rappaport"}
 
-I am a postdoctoral researcher at the [Laboratoire Jacques-Louis Lions](https://www.ljll.fr/) (Sorbonne Université / CNRS) in Paris, funded by an ERC Synergy grant. <!-- TODO: add project name + link -->
+I am a postdoctoral researcher at the [Laboratoire Jacques-Louis Lions](https://www.ljll.fr/) (Sorbonne Université / CNRS) in Paris, working on phase space methods within the ERC Synergy project **[PSINumScat](https://psinumscat.com/)** (Phase-space-inspired Numerical Methods for High Frequency Wave Scattering).
 
-My research sits at the interface of **numerical analysis** and **scientific computing**, with a focus on **high-frequency electromagnetic wave propagation in complex and anisotropic media**. I work on **domain decomposition methods** for the time-harmonic Maxwell equations — their design, their wavenumber-explicit convergence analysis, and their large-scale parallel implementation — using **semiclassical analysis** as the framework that explains when and why these solvers work.
+My research is in **numerical analysis and scientific computing**. I work on a posteriori error estimation and adaptive algorithms for nonlinear partial differential equations, and on discretizations and iterative solvers for electromagnetic wave propagation. My work combines mathematical analysis with numerical implementation.
 
-Before joining LJLL, I was a postdoc in the [POEMS team](https://uma.ensta-paris.fr/poems/) at ENSTA Paris, working with Patrick Ciarlet, Axel Modave, and Théophile Chaumont-Frelet. I completed my PhD at Sorbonne Université and Inria Paris in the [SERENA team](https://team.inria.fr/serena/), supervised by Martin Vohralík and François Févotte, on adaptive finite element methods and solvers for nonlinear elliptic PDEs.
+Before joining LJLL, I was a postdoc in the [POEMS team](https://poems.ensta.ip-paris.fr/) at ENSTA Paris, working with [Patrick Ciarlet](https://perso.ensta-paris.fr/~ciarlet/eng_index.html), [Axel Modave](https://www.axel.modave.eu/), and [Théophile Chaumont-Frelet](https://tchaumont.github.io/). I completed my PhD at Sorbonne Université and Inria Paris in the [SERENA team](https://team.inria.fr/serena/), supervised by [Martin Vohralík](https://who.rocq.inria.fr/Martin.Vohralik/) and [François Févotte](https://fevotte.net/), on adaptive finite element methods and solvers for nonlinear elliptic PDEs.
 
 ## Contact
 
