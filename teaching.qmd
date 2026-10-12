@@ -4,8 +4,6 @@ title: "Teaching"
 
 ## Current and past courses
 
-<!-- TODO: add any Sorbonne Université / LJLL teaching -->
-
 - Recitations (*chargé de travaux dirigés*), **Introduction to dynamical systems**, ENSTA Paris — [Fall 2024](https://synapses.ensta-paris.fr/catalogue/2024-2025/ue/2/APM-3AO02-TA-), [Fall 2025](https://synapses.ensta-paris.fr/catalogue/2025-2026/ue/2/APM-3AO02-TA-systemes-dynamiques-stabilite-et-commande)
 - Recitations (*chargé de travaux dirigés*), **Quadratic optimization**, ENSTA Paris — [Spring 2025](https://synapses.ensta-paris.fr/catalogue/2024-2025/ue/1/apm-3ao01-ta-optimisation-quadratique),
 [spring 2026](https://synapses.ensta-paris.fr/catalogue/2025-2026/ue/1/apm-3ao01-ta-optimisation-quadratique)

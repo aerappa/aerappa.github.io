@@ -39,15 +39,6 @@ python3 -m http.server -d _site 8000   # http://localhost:8000
 5. Repo → Settings → Pages → Custom domain: enter the domain, enable
    **Enforce HTTPS** once the certificate is issued.
 
-## Remaining TODOs (search the source for `TODO`)
-
-- Copy `buste.jpg` and the research figures from the old Inria site into `assets/`
-  (the current `assets/buste.jpg` is a gray placeholder).
-- ERC project name + link on both home pages.
-- Current LJLL email address.
-- Any Sorbonne/LJLL teaching.
-- Consider a redirect note or link on the old Inria page pointing here.
-
 ## Updating publications
 
 Edit `mypapers.bib` (add an entry, fill in volume/pages once a preprint is

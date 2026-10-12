@@ -38,7 +38,7 @@ Related preprint: [Analysis of a two-level domain decomposition preconditioner f
 
 ## Phase space methods for high-frequency waves
 
-At [LJLL](https://www.ljll.fr/), I work on **phase space methods** within **[PSINumScat](https://psinumscat.com/)** (Phase-space-inspired Numerical Methods for High Frequency Wave Scattering), an ERC Synergy project. The project uses high-frequency analysis to develop numerical methods for acoustic and electromagnetic wave scattering.
+At [LJLL](https://www.ljll.fr/), I work on **phase space methods** within **[PSINumScat](https://psinumscat.com/)** (Phase-space-inspired Numerical Methods for High Frequency Wave Scattering), an ERC Synergy project. The project uses high-frequency analysis to develop numerical methods for acoustic and electromagnetic wave scattering. It is funded by the European Research Council (grant agreement [No. 101167139](https://doi.org/10.3030/101167139)).
 
 ## Earlier work: a posteriori error estimation and adaptivity
 
@@ -50,11 +50,11 @@ Related publications: [Adaptive regularization for the Richards equation](https:
 
 ::: {.research-figure}
 ::: {.research-sequence}
-![](21e3.png){alt="First stage of the perched-water simulation"}
+![](assets/21e3.png){alt="First stage of the perched-water simulation"}
 
-![](41e3.png){alt="Second stage of the perched-water simulation"}
+![](assets/41e3.png){alt="Second stage of the perched-water simulation"}
 
-![](86e3.png){alt="Third stage of the perched-water simulation"}
+![](assets/86e3.png){alt="Third stage of the perched-water simulation"}
 :::
 
 *Evolution of perched water in a Richards equation simulation.*

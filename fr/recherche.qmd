@@ -44,7 +44,7 @@ Ces deux projets abordent une même question sous des angles complémentaires : 
 
 ## Méthodes dans l’espace des phases pour les ondes à haute fréquence
 
-J’ai récemment rejoint le [LJLL](https://www.ljll.fr/) pour travailler sur les **méthodes dans l’espace des phases** au sein du projet ERC Synergy **[PSINumScat](https://psinumscat.com/)** (Phase-space-inspired Numerical Methods for High Frequency Wave Scattering).
+J’ai récemment rejoint le [LJLL](https://www.ljll.fr/) pour travailler sur les **méthodes dans l’espace des phases** au sein du projet ERC Synergy **[PSINumScat](https://psinumscat.com/)** (Phase-space-inspired Numerical Methods for High Frequency Wave Scattering), financé par le Conseil européen de la recherche (convention de subvention [n° 101167139](https://doi.org/10.3030/101167139)).
 
 Le projet vise à utiliser les outils mathématiques de l’analyse à haute fréquence pour concevoir, analyser et implémenter de nouvelles méthodes numériques pour la diffraction d’ondes acoustiques et électromagnétiques. Cette nouvelle direction prolonge mon intérêt pour les relations entre la structure d’un problème d’ondes, sa formulation numérique et les performances du solveur.
 
@@ -58,11 +58,11 @@ Publications associées : [Régularisation adaptative pour l’équation de Rich
 
 ::: {.research-figure}
 ::: {.research-sequence}
-![](../21e3.png){alt="Première étape de la simulation de la nappe perchée"}
+![](../assets/21e3.png){alt="Première étape de la simulation de la nappe perchée"}
 
-![](../41e3.png){alt="Deuxième étape de la simulation de la nappe perchée"}
+![](../assets/41e3.png){alt="Deuxième étape de la simulation de la nappe perchée"}
 
-![](../86e3.png){alt="Troisième étape de la simulation de la nappe perchée"}
+![](../assets/86e3.png){alt="Troisième étape de la simulation de la nappe perchée"}
 :::
 
 *Évolution d’une nappe perchée dans une simulation de l’équation de Richards.*

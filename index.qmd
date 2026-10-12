@@ -4,7 +4,7 @@ title: "Welcome"
 
 ![](./assets/headshot.jpeg){.portrait alt="Portrait of Ari Rappaport"}
 
-I am a postdoctoral researcher at the [Laboratoire Jacques-Louis Lions](https://www.ljll.fr/) (Sorbonne Université / CNRS) in Paris, working on phase space methods within the [PSINumScat](https://psinumscat.com/) project.
+I am a postdoctoral researcher at the [Laboratoire Jacques-Louis Lions](https://www.ljll.fr/) (Sorbonne Université / CNRS) in Paris, working on phase space methods within the ERC Synergy project [PSINumScat](https://psinumscat.com/).
 
 Previously, I was a postdoc in the [POEMS team](https://poems.ensta.ip-paris.fr/) at ENSTA Paris, working with [Marcella Bonazzoli](https://mbonazzo.gitlabpages.inria.fr/), [Patrick Ciarlet](https://perso.ensta-paris.fr/~ciarlet/eng_index.html), [Axel Modave](https://www.axel.modave.eu/), and [Théophile Chaumont-Frelet](https://tchaumont.github.io/) on numerical methods for electromagnetic waves.
 
