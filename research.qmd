@@ -13,7 +13,7 @@ With [Théophile Chaumont-Frelet](https://tchaumont.github.io/) and [Axel Modave
 The paper develops a nodal implementation and compares CGNR and GMRES solver strategies through three-dimensional benchmarks, including a large-scale experiment using a parallel C++ code. I am preparing **CHDG.jl** for public release on GitHub.
 
 ::: {.research-figure}
-![](CGNRprec_1600.png){.research-image alt="Three-dimensional electromagnetic field computed with the CHDG method."}
+![](assets/CGNRprec_1600.png){.research-image alt="Three-dimensional electromagnetic field computed with the CHDG method."}
 
 *Three-dimensional electromagnetic field computed with the CHDG method.*
 :::
@@ -28,7 +28,7 @@ We derive convergence estimates for preconditioned GMRES that explicitly account
 
 ::: {.research-figure}
 ::: {.ddm-crop}
-![](comparison_outline.png){alt="Field visualizations from the heterogeneous, anisotropic Maxwell experiments."}
+![](assets/comparison_outline.png){alt="Field visualizations from the heterogeneous, anisotropic Maxwell experiments."}
 :::
 
 *Field visualizations from the heterogeneous, anisotropic Maxwell experiments.*

@@ -17,7 +17,7 @@ La méthode utilise des variables de transmission entrantes et sortantes sur les
 L’article présente également une implémentation nodale et compare des stratégies de résolution par CGNR et GMRES sur des cas tests tridimensionnels, dont une expérience à grande échelle avec un code C++ parallèle. Je prépare la publication de **CHDG.jl** sur GitHub.
 
 ::: {.research-figure}
-![](../CGNRprec_1600.png){.research-image alt="Champ électromagnétique tridimensionnel calculé avec la méthode CHDG."}
+![](../assets/CGNRprec_1600.png){.research-image alt="Champ électromagnétique tridimensionnel calculé avec la méthode CHDG."}
 
 *Champ électromagnétique tridimensionnel calculé avec la méthode CHDG.*
 :::
@@ -32,7 +32,7 @@ Nous établissons des estimations de convergence de GMRES préconditionné qui f
 
 ::: {.research-figure}
 ::: {.ddm-crop}
-![](../comparison_outline.png){alt="Visualisations de champs issues des expériences sur les équations de Maxwell hétérogènes et anisotropes."}
+![](../assets/comparison_outline.png){alt="Visualisations de champs issues des expériences sur les équations de Maxwell hétérogènes et anisotropes."}
 :::
 
 *Visualisations de champs issues des expériences sur les équations de Maxwell hétérogènes et anisotropes.*
