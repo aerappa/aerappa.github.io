@@ -1,0 +1,168 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Style et couleur de moderncv
+\moderncvstyle{classic}
+\moderncvcolor{green}
+
+
+% Encodage et mise en page
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{3.0cm}
+
+% Inclusion du paquet moderntimeline
+\usepackage[firstyear=2016,lastyear=2026]{moderntimeline}
+
+\usepackage{pdfpages}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{enumitem}
+
+% \usepackage{doi}
+
+\newcommand*{\doi}[1]{\href{http://dx.doi.org/#1}{DOI: #1}}
+
+% Informations personnelles
+\firstname{Ari Edward}
+\familyname{RAPPAPORT}
+\title{
+  Curriculum vitae
+}
+\homepage{https://aerappa.github.io}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Career Timeline}
+\tlcventry{2026}{0}{Postdoctoral Researcher}{Laboratoire Jacques-Louis Lions}{Paris, France}{}{}
+\tlcventry{2024}{2026}{Postdoctoral Researcher}{ENSTA Paris}{Palaiseau, France}{}{}
+\tlcventry{2024}{2026}{Teaching Assistant (Tutorials)}{ENSTA Paris}{Palaiseau, France}{}{}
+\tlcventry[blue]{2021}{2024}{PhD Candidate}{Inria Paris}{Paris, France}{}{}
+\tlcventry{2017}{2020}{Research Intern}{Sandia National Laboratories}{Albuquerque, United States}{}{}
+\tlcventry[blue]{2018}{2020}{Master’s Degree}{University of New Mexico}{Albuquerque, United States}{}{}
+\tlcventry{2017}{2018}{Teaching Assistant (Laboratory Sessions)}{University of New Mexico}{Albuquerque, United States}{}{}
+\tlcventry{2015}{2017}{Research Intern}{Voss Scientific}{Albuquerque, United States}{}{}
+\tlcventry[blue]{2013}{2018}{Bachelor’s Degree}{University of New Mexico}{Albuquerque, United States}{}{}
+
+\section{Education}
+\cventry{2021--2024}{PhD in Applied Mathematics}{Sorbonne University}{Paris, France}{\textit{SERENA Team}}{%
+Dissertation: \textit{A posteriori error estimates and adaptivity in numerical approximation of PDEs: regularization, linearization, discretization, and floating-point accuracy} \\
+Advisor: Martin Vohralík \\
+Co-advisor: François Févotte
+}
+\cventry{2018--2020}{Master’s Degree in Applied Mathematics}{University of New Mexico}{Albuquerque, United States}{}{%
+Thesis: \textit{An a posteriori error analysis of stationary incompressible magnetohydrodynamics} \\
+Advisors: Jehanzeb Chaudhry and John Shadid
+}
+\cventry{2013--2018}{Bachelor’s Degree in Computational Mathematics}{University of New Mexico}{Albuquerque, United States}{}{%
+Thesis: \textit{Exploration of Black Box Multigrid for Linear Systems Modelling Resistive MHD} \\
+Advisors: Jehanzeb Chaudhry, Raymond Tuminaro, and John Shadid
+}
+
+\section{Publications}
+\subsection{Published Articles}
+
+\begin{enumerate}
+    \item \underline{Rappaport, A. E.}, Chaumont-Frélet, T., and Modave, A.
+    A hybridizable discontinuous Galerkin method with transmission variables for time-harmonic electromagnetic problems.
+    \textit{SIAM Journal on Scientific Computing} \textbf{48}(4) (2026), B629--B650. \\
+    \doi{10.1137/25M1756818}
+    \item Harnist, A., Mitra, K., \underline{Rappaport, A.}, and Vohralík, M.
+    Robust augmented energy a posteriori estimates for Lipschitz and strongly monotone elliptic problems.
+    \textit{IMA Journal of Numerical Analysis}, drag036 (2026). \\
+    \doi{10.1093/imanum/drag036}
+    \item Févotte, F., \underline{Rappaport, A.}, and Vohralík, M.
+    Adaptive regularization for the Richards equation.
+    \textit{Computational Geosciences} \textbf{28}(6) (2024), 1371--1380. \\
+    \doi{10.1007/s10596-024-10309-7}
+    \item Févotte, F., \underline{Rappaport, A.}, and Vohralík, M.
+    Adaptive regularization, discretization, and linearization for nonsmooth problems based on primal--dual gap estimators.
+    \textit{Computer Methods in Applied Mechanics and Engineering} \textbf{418} (2024), 116558. \\
+    \doi{10.1016/j.cma.2023.116558}
+    \item J.~H. Chaudhry, \underline{A.~E. Rappaport}, and J.~N. Shadid,
+    An a posteriori error analysis for the equations of stationary incompressible magnetohydrodynamics,
+    \textit{SIAM Journal on Scientific Computing} \textbf{43} (2021), no.~2, B354--B380. \\
+    \doi{10.1137/20M1342975}
+\end{enumerate}
+
+\subsection{Submitted Articles and Preprints}
+
+\begin{enumerate}[itemsep=1em]
+    \item Bonazzoli, M., Ciarlet Jr., P., Modave, A., and \underline{Rappaport, A. E.}
+    Analysis of a two-level domain decomposition preconditioner for the time-harmonic Maxwell equations in anisotropic media.
+    HAL Preprint 05572507, 2026.
+
+    \item Févotte, F., \underline{A. Rappaport}.
+    A thread-parallel implementation of equilibrated flux reconstruction in Julia.
+    HAL Preprint 04537446, 2024.
+\end{enumerate}
+
+\section{Research and Teaching Experience}
+\cventry{Sep 2026--Present}{Postdoctoral Researcher}{Laboratoire Jacques-Louis Lions, Sorbonne Universit\'e}{Paris, France}{%
+Research on phase-space methods within the ERC Synergy project PSINumScat (Phase-space-inspired Numerical Methods for High Frequency Wave Scattering).
+}{}
+\cventry{Sep 2024--Sep 2026}{Teaching Assistant (Tutorials and Labs)}{ENSTA Paris}{Palaiseau, France}{%
+Prepared and led tutorial and laboratory sessions, developed pedagogical materials and problem sets, delivered theoretical summaries, and graded student assessments.
+}{}
+\cventry{Nov 2017--Oct 2020}{Research Intern}{Sandia National Laboratories}{Albuquerque, United States}{%
+Department 1442, Computational Mathematics.
+Research on a posteriori error analysis for stationary incompressible magnetohydrodynamics.
+Project on using Long Short Term Memory (LSTM) methods to enhance POD-based reduced-order models in MHD.}{}
+\cventry{May 2015--Jun 2018}{Research Intern}{Voss Scientific}{Albuquerque, United States}{%
+Extension of a numerical viscosity algorithm for a PIC code.
+Development of interfaces for multigrid Maxwell solvers and adaptation of a preconditioner for an augmented Maxwell system.}{}
+\cventry{Aug 2017--May 2018}{Teaching Assistant (Laboratory Sessions)}{Department of Computer Science, University of New Mexico}{Albuquerque, United States}{%
+Designed and led computer laboratory sessions, developed progressive hands-on exercises, and provided individual student support to address technical and conceptual difficulties.
+}{}
+
+\section{International Conference Presentations}
+\begin{itemize}
+  \item \href{https://sites.cwi.nl/en/scs/events/wave-ned-conference-on-analysis-modeling-and-numerics-of-waves/}{WAVE-NED Conference on Analysis, Modeling and Numerics of Waves} (Delft, The Netherlands, 2026).
+  \item \href{https://www.tuwien.at/en/mg/asc/event/cmam2026}{International Conference on Computational Methods in Applied Mathematics (CMAM)} (Vienna, Austria, 2026).
+  \item \href{https://canum2026.math.cnrs.fr/en/}{CANUM -- Congr\`es National d'Analyse Num\'erique} (Saint-Jacut-de-la-Mer, France, 2026).
+  \item \href{https://www.dd29.polimi.it/}{29th International Conference on Domain Decomposition Methods} (Milan, Italy, 2025).
+  \item \href{https://ins.uni-bonn.de/group/gedicke/page/cmam-10}{International Conference on Computational Methods in Applied Mathematics} (Bonn, Germany, 2024).
+  \item \href{https://icosahom2023.org/}{International Conference on Spectral and High Order Methods} (Seoul, South Korea, 2023).
+  \item \href{https://www.siam.org/conferences-events/past-event-archive/gs23/}{SIAM Conference on Mathematical and Computational Issues in the Geosciences} (Bergen, Norway, 2023).
+  \item \href{https://www.wccm2022.org/}{World Congress on Computational Mechanics} (Yokohama, Japan, 2022).
+  \item \href{https://www.siam.org/conferences-events/past-event-archive/cse19/}{SIAM Conference on Computational Science and Engineering} (Spokane, United States, 2019).
+\end{itemize}
+
+
+\section{Invited Team and Laboratory Seminars}
+\begin{itemize}
+  \item Seminar of the Laboratoire de Mathématiques d’Orsay (Orsay, France, 2026)
+  \item Seminar of the  Institut de Mathématiques de Marseille (Marseille, France, 2026)
+  \item Seminar of the Jean Kuntzmann Laboratory (Grenoble, France, 2026)
+  \item Seminar of the AGM Laboratory (Cergy, France, 2025)
+  \item Joint LJLL / Inria Seminar (Paris, France, 2025)
+  \item IMAG Team Seminar (Montpellier, France, 2025)
+  \item UNM Applied Mathematics Seminar Series (Albuquerque, United States, 2020)
+\end{itemize}
+
+\section{Honors and Awards}
+\begin{itemize}
+  \item SIAM CSE Student Travel Award (2019).
+  \item UNM Departmental Honors: Mathematics (2018).
+  \item UNM Van Dyke Computer Science Scholarship (2017).
+  \item UNM Leonard Engineering Scholarship (2016).
+\end{itemize}
+
+\section{Computing Skills and Programming}
+\begin{itemize}
+  \item \textbf{Programming Languages:} Julia, Python, C/C++, MATLAB, Java, Fortran 90.
+  \item \textbf{Operating Systems:} Linux, macOS.
+  \item Advanced proficiency with \texttt{vim}, \texttt{slurm}, \texttt{make}, etc.
+\end{itemize}
+
+\section{Languages}
+\begin{itemize}
+  \item English: Native
+  \item French: Fluent
+  \item Spanish: Basic knowledge
+  \item Chinese: Basic knowledge
+\end{itemize}
+\end{document}
+

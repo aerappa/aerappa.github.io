@@ -1,18 +1,17 @@
 ---
-title: "Ari E. Rappaport"
+title: "Bienvenue"
 ---
 
-<!-- TODO : copier votre photo depuis l'ancien site vers assets/budapest1.jpg -->
 ![](../assets/headshot.jpeg){.portrait alt="Portrait d'Ari Rappaport"}
 
-Je suis chercheur postdoctoral au [Laboratoire Jacques-Louis Lions](https://www.ljll.fr/) (Sorbonne Université / CNRS) à Paris, où je travaille sur les méthodes dans l’espace des phases au sein du projet ERC Synergy **[PSINumScat](https://psinumscat.com/)** (Phase-space-inspired Numerical Methods for High Frequency Wave Scattering).
+Je suis chercheur postdoctoral au [Laboratoire Jacques-Louis Lions](https://www.ljll.fr/) (Sorbonne Université / CNRS) à Paris, où je travaille sur les méthodes dans l’espace des phases au sein du projet [PSINumScat](https://psinumscat.com/).
 
-Mes recherches portent sur l’**analyse numérique et le calcul scientifique**. Je m’intéresse à l’estimation d’erreur a posteriori et aux algorithmes adaptatifs pour les équations aux dérivées partielles non linéaires, ainsi qu’aux discrétisations et aux solveurs itératifs pour la propagation d’ondes électromagnétiques. Mes travaux associent analyse mathématique et mise en œuvre numérique.
+Auparavant, j’étais postdoctorant dans l’équipe [POEMS](https://poems.ensta.ip-paris.fr/) à l’ENSTA Paris, où j’ai travaillé avec [Marcella Bonazzoli](https://mbonazzo.gitlabpages.inria.fr/), [Patrick Ciarlet](https://perso.ensta-paris.fr/~ciarlet/eng_index.html), [Axel Modave](https://www.axel.modave.eu/) et [Théophile Chaumont-Frelet](https://tchaumont.github.io/) sur les méthodes numériques pour les ondes électromagnétiques.
 
-Avant de rejoindre le LJLL, j'étais postdoctorant dans l'équipe [POEMS](https://poems.ensta.ip-paris.fr/) à l'ENSTA Paris, où j'ai travaillé avec [Patrick Ciarlet](https://perso.ensta-paris.fr/~ciarlet/eng_index.html), [Axel Modave](https://www.axel.modave.eu/) et [Théophile Chaumont-Frelet](https://tchaumont.github.io/). J'ai effectué ma thèse à Sorbonne Université et Inria Paris au sein de l'équipe [SERENA](https://team.inria.fr/serena/), sous la direction de [Martin Vohralík](https://who.rocq.inria.fr/Martin.Vohralik/) et [François Févotte](https://fevotte.net/), sur les méthodes d'éléments finis adaptatives et les solveurs pour les EDP elliptiques non linéaires.
+J’ai effectué ma thèse à Sorbonne Université et Inria Paris au sein de l’équipe [SERENA](https://team.inria.fr/serena/), sous la direction de [Martin Vohralík](https://who.rocq.inria.fr/Martin.Vohralik/) et [François Févotte](https://fevotte.net/), sur l’estimation d’erreur a posteriori et les algorithmes adaptatifs pour les EDP elliptiques non linéaires.
 
 ## Contact
 
-- Courriel : <!-- TODO : adresse LJLL actuelle -->
+- Courriel : [ari.rappaport@sorbonne-universite.fr](mailto:ari.rappaport@sorbonne-universite.fr)
 - Bureau : Laboratoire Jacques-Louis Lions, Sorbonne Université, 4 place Jussieu, 75005 Paris
 - [GitHub](https://github.com/aerappa) · [Google Scholar](https://scholar.google.com/citations?user=FIbOGQEAAAAJ&hl=fr) · [HAL](https://hal.science/search/index/?q=ari+rappaport) · [LinkedIn](https://www.linkedin.com/in/ari-rappaport-642559108/)

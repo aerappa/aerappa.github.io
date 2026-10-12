@@ -1,0 +1,35 @@
+project:
+  type: website
+
+profile:
+  default: en
+
+website:
+  title: "Ari E. Rappaport"
+  site-url: "https://aerappa.github.io"
+  favicon: assets/favicon.svg
+  page-footer:
+    left: "© Ari E. Rappaport · CC BY-SA 4.0"
+    right:
+      - icon: github
+        href: https://github.com/aerappa
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=FIbOGQEAAAAJ&hl=en
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ari-rappaport-642559108/
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    mainfont: "Source Sans 3"
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    include-after-body:
+      text: |
+        <script src="/assets/lang-switch.js"></script>

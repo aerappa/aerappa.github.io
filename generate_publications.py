@@ -206,16 +206,22 @@ LABELS = {
     "en": {
         "journal_heading": "## Journal articles",
         "preprint_heading": "## Preprints",
+        "thesis_heading": "## Theses",
         "journal_link": "journal",
         "preprint_link": "preprint",
         "hal_link": "HAL",
+        "phdthesis_degree": "PhD thesis",
+        "mastersthesis_degree": "Master's thesis",
     },
     "fr": {
         "journal_heading": "## Articles dans des revues internationales",
         "preprint_heading": "## Prépublications et articles soumis",
-        "journal_link": "revue",
+        "thesis_heading": "## Thèses",
+        "journal_link": "journal",
         "preprint_link": "prépublication",
         "hal_link": "HAL",
+        "phdthesis_degree": "thèse de doctorat",
+        "mastersthesis_degree": "mémoire de master",
     },
 }
 
@@ -247,12 +253,25 @@ def render_preprint_entry(entry, labels):
     return f"- **{authors}.** {title}, {year}. [{labels['hal_link']}]({url})"
 
 
+def render_thesis_entry(entry, labels):
+    authors = format_authors(entry.get('author', ''))
+    title = clean_text(entry.get('title', ''))
+    school = clean_text(entry.get('school', ''))
+    year = clean_text(entry.get('year', ''))
+    url = clean_text(entry.get('url', ''))
+    degree = labels[f"{entry['type']}_degree"]
+    linklabel = clean_text(entry.get('linklabel', 'link'))
+    return f"- **{authors}.** {title}, {degree}, {school}, {year}. [{linklabel}]({url})"
+
+
 def render_page(entries, lang):
     labels = LABELS[lang]
     journals = [e for e in entries if e['type'] == 'article']
     preprints = [e for e in entries if e['type'] == 'unpublished']
+    theses = [e for e in entries if e['type'] in ('phdthesis', 'mastersthesis')]
     journals.sort(key=lambda e: int(clean_text(e.get('year', '0'))), reverse=True)
     preprints.sort(key=lambda e: int(clean_text(e.get('year', '0'))), reverse=True)
+    theses.sort(key=lambda e: int(clean_text(e.get('year', '0'))), reverse=True)
 
     lines = ['---', 'title: "Publications"', '---', '']
     lines.append(labels['journal_heading'])
@@ -272,6 +291,16 @@ def render_page(entries, lang):
     for i, e in enumerate(preprints):
         lines.append(render_preprint_entry(e, labels))
         if i != len(preprints) - 1:
+            lines.append('')
+    lines.append(':::')
+    lines.append('')
+    lines.append(labels['thesis_heading'])
+    lines.append('')
+    lines.append('::: {.pub-list}')
+    lines.append('')
+    for i, e in enumerate(theses):
+        lines.append(render_thesis_entry(e, labels))
+        if i != len(theses) - 1:
             lines.append('')
     lines.append(':::')
     lines.append('')

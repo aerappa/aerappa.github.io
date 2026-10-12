@@ -2,27 +2,21 @@
 title: "Research"
 ---
 
-I develop and analyze numerical methods for partial differential equations, with an emphasis on error control and iterative solvers. My work includes adaptive algorithms for nonlinear problems and finite element methods for electromagnetic waves.
+I develop and analyze numerical methods for partial differential equations, with an emphasis on the interaction between **discretization and iterative solution**. My current work focuses on high-frequency wave propagation, including Maxwell discretizations, domain decomposition, and phase space methods for scattering.
 
-## A posteriori error estimation and adaptive algorithms
-
-How accurately should each stage of a numerical solve be carried out? My work on nonlinear and nonsmooth elliptic problems uses **a posteriori error estimates** to guide mesh refinement and to balance the errors introduced by regularization, linearization, and discretization.
-
-With [François Févotte](https://fevotte.net/) and [Martin Vohralík](https://who.rocq.inria.fr/Martin.Vohralik/), I developed adaptive regularization strategies based on error estimators, including applications to Richards’ equation for flow in porous media. These methods use estimates of the different error contributions to choose stopping criteria and avoid unnecessary work. Joint work with [A. Harnist](https://andreharnist.fr/), [K. Mitra](https://www.koondi.net/), and Martin Vohralík addresses robust augmented-energy estimates for Lipschitz and strongly monotone elliptic problems.
-
-Related publications: [Adaptive regularization for the Richards equation](https://hal.science/hal-04266827) · [Adaptive regularization, discretization, and linearization for nonsmooth problems](https://hal.science/hal-04105560) · [Robust augmented energy estimates](https://hal.science/hal-04033438).
-
-The computational side of this work also includes **EquilibratedFlux.jl** and joint work with [François Févotte](https://fevotte.net/) on a [thread-parallel implementation of equilibrated flux reconstruction in Julia](https://hal.science/hal-04537446).
-
-## Numerical methods for electromagnetic wave propagation
+## Discretizations and solvers for electromagnetic waves
 
 ### Hybridizable discontinuous Galerkin methods
 
-With [Théophile Chaumont-Frelet](https://tchaumont.github.io/) and [Axel Modave](https://www.axel.modave.eu/), I extended the **CHDG method**, originally studied for the Helmholtz equation, to the three-dimensional time-harmonic Maxwell equations with constant coefficients.
+With [Théophile Chaumont-Frelet](https://tchaumont.github.io/) and [Axel Modave](https://www.axel.modave.eu/), I extended the **CHDG method** from Helmholtz to the three-dimensional time-harmonic Maxwell equations with constant coefficients. The method uses incoming and outgoing transmission variables on element faces. Eliminating the fields inside each element reduces the global problem to incoming interface unknowns. We prove well-posedness of the local problems and contractivity of the associated fixed-point iteration.
 
-The method uses incoming and outgoing transmission variables on element faces. Eliminating the fields inside each element leaves a global system for the incoming interface variables. We prove that the local problems are well-posed and that the associated fixed-point iteration is contractive.
+The paper develops a nodal implementation and compares CGNR and GMRES solver strategies through three-dimensional benchmarks, including a large-scale experiment using a parallel C++ code. I am preparing **CHDG.jl** for public release on GitHub.
 
-The paper also develops a nodal implementation and compares CGNR and GMRES solver strategies through three-dimensional benchmarks, including a large-scale experiment using a parallel C++ code. I am preparing **CHDG.jl** for public release on GitHub.
+::: {.research-figure}
+![](CGNRprec_1600.png){.research-image alt="Three-dimensional electromagnetic field computed with the CHDG method."}
+
+*Three-dimensional electromagnetic field computed with the CHDG method.*
+:::
 
 Related publication: [A Hybridizable Discontinuous Galerkin Method with Transmission Variables for Time-Harmonic Electromagnetic Problems](https://doi.org/10.1137/25M1756818), *SIAM Journal on Scientific Computing* (2026) · [HAL version](https://hal.science/hal-05016261).
 
@@ -32,10 +26,38 @@ In joint work with [Marcella Bonazzoli](https://mbonazzo.gitlabpages.inria.fr/),
 
 We derive convergence estimates for preconditioned GMRES that explicitly account for material contrast and anisotropy. The analysis covers proportional conductivity and a restricted class of deviations from it. Numerical experiments at fixed frequency show that a finer coarse mesh can largely compensate for the deterioration in convergence caused by increasing anisotropy or heterogeneity. They also show successful solver behavior for conductivity choices beyond the sufficient conditions covered by the analysis.
 
+::: {.research-figure}
+::: {.ddm-crop}
+![](comparison_outline.png){alt="Field visualizations from the heterogeneous, anisotropic Maxwell experiments."}
+:::
+
+*Field visualizations from the heterogeneous, anisotropic Maxwell experiments.*
+:::
+
 Related preprint: [Analysis of a two-level domain decomposition preconditioner for the time-harmonic Maxwell equations in anisotropic media](https://hal.science/hal-05572507).
 
-## Current direction: phase space methods
+## Phase space methods for high-frequency waves
 
-I recently joined [LJLL](https://www.ljll.fr/) to work on **phase space methods** within **[PSINumScat](https://psinumscat.com/)** (Phase-space-inspired Numerical Methods for High Frequency Wave Scattering), an ERC Synergy project.
+At [LJLL](https://www.ljll.fr/), I work on **phase space methods** within **[PSINumScat](https://psinumscat.com/)** (Phase-space-inspired Numerical Methods for High Frequency Wave Scattering), an ERC Synergy project. The project uses high-frequency analysis to develop numerical methods for acoustic and electromagnetic wave scattering.
 
-The project aims to use mathematical tools for high-frequency analysis to design, analyze, and implement new numerical methods for acoustic and electromagnetic wave scattering. My work within the project is beginning and develops a new direction alongside my previous work on adaptive methods and Maxwell solvers.
+## Earlier work: a posteriori error estimation and adaptivity
+
+During my PhD, I studied how **a posteriori error estimates** can guide computational effort in nonlinear and nonsmooth elliptic problems. The estimators separate errors due to regularization, linearization, and discretization, making it possible to guide mesh refinement and choose stopping criteria for each stage of the computation.
+
+With [François Févotte](https://fevotte.net/) and [Martin Vohralík](https://who.rocq.inria.fr/Martin.Vohralik/), I developed adaptive regularization strategies based on this principle, including applications to Richards' equation for flow in porous media. Joint work with [A. Harnist](https://andreharnist.fr/), [K. Mitra](https://www.koondi.net/), and Martin Vohralík establishes robust augmented-energy estimates for Lipschitz and strongly monotone elliptic problems.
+
+Related publications: [Adaptive regularization for the Richards equation](https://hal.science/hal-04266827) · [Adaptive regularization, discretization, and linearization for nonsmooth problems](https://hal.science/hal-04105560) · [Robust augmented energy estimates](https://hal.science/hal-04033438).
+
+::: {.research-figure}
+::: {.research-sequence}
+![](21e3.png){alt="First stage of the perched-water simulation"}
+
+![](41e3.png){alt="Second stage of the perched-water simulation"}
+
+![](86e3.png){alt="Third stage of the perched-water simulation"}
+:::
+
+*Evolution of perched water in a Richards equation simulation.*
+:::
+
+The computational side of this work includes **EquilibratedFlux.jl** and joint work with François Févotte on a [thread-parallel implementation of equilibrated flux reconstruction in Julia](https://hal.science/hal-04537446).

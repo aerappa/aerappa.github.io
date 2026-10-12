@@ -23,10 +23,15 @@ python3 -m http.server -d _site 8000   # http://localhost:8000
 
 ## First deployment
 
-1. Create a GitHub repo, push this directory to `main`.
+1. Push this directory to `main` of the `aerappa.github.io` repo
+   (served at https://aerappa.github.io).
 2. Repo → Settings → Pages → Source: **GitHub Actions**.
-3. Edit the `CNAME` line in `.github/workflows/publish.yml` and `site-url`
-   in `_quarto.yml` to your real domain.
+
+### Optional: custom domain
+
+3. Set `site-url` in `_quarto.yml` and `\homepage` in `cv_en.tex` to the
+   domain, and add a step writing it to `_site/CNAME` in
+   `.github/workflows/publish.yml`.
 4. At your registrar, add DNS records:
    - apex domain: 4 × `A` records → `185.199.108.153`, `.109.153`, `.110.153`, `.111.153`
      (or `ALIAS`/`ANAME` → `aerappa.github.io`)

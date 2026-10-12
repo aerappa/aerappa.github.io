@@ -1,0 +1,183 @@
+/*-- scss:defaults --*/
+
+// Palette — cool paper, deep blue-slate ink, single "working blue" accent.
+$ink:        #1B2434;
+$paper:      #FCFCFB;
+$muted:      #5C6472;
+$accent:     #2A49A5;   // link / accent blue
+$accent-dk:  #1B2F6E;   // hover
+$rule:       #E3E6EB;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $accent;
+$navbar-bg: $ink;
+$navbar-fg: #F2F4F8;
+
+$font-family-sans-serif: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+$headings-font-family: "Spectral", Georgia, serif;
+$headings-font-weight: 600;
+$font-size-root: 17px;
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+  font-family: "Source Sans 3", sans-serif;
+  letter-spacing: 0.01em;
+  .navbar-brand {
+    font-family: "Spectral", Georgia, serif;
+    font-weight: 500;
+  }
+}
+
+h1, h2, h3 {
+  color: $ink;
+}
+
+h2 {
+  margin-top: 2.2rem;
+  border-bottom: 1px solid $rule;
+  padding-bottom: 0.3rem;
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  &:hover { color: $accent-dk; }
+}
+
+// ---------------------------------------------------------------------------
+// Signature: a damped wave under each page title — a plane wave entering an
+// absorbing layer, i.e. the physics of the research itself.
+// ---------------------------------------------------------------------------
+.quarto-title-block .quarto-title h1.title::after {
+  content: "";
+  display: block;
+  width: 260px;
+  height: 18px;
+  margin-top: 0.55rem;
+  background-repeat: no-repeat;
+  background-size: 260px 18px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="260" height="18" viewBox="0 0 260 18"><path d="M0 9 Q 8 0, 16 9 T 32 9 T 48 9 T 64 9 T 80 9 Q 87 2.5, 94 9 T 108 9 Q 114.5 4.5, 121 9 T 134 9 Q 140 6, 146 9 T 158 9 Q 163.5 7.2, 169 9 T 180 9 Q 185.5 8, 191 9 T 202 9 Q 208 8.6, 214 9 T 226 9 L 260 9" fill="none" stroke="%232A49A5" stroke-width="1.6" stroke-linecap="round"/></svg>');
+}
+
+.quarto-title-block .quarto-title h1.title {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+// Publication list rhythm
+.pub-list p, ul.pub-list li {
+  margin-bottom: 0.9rem;
+}
+
+// Portrait on the home page
+img.portrait {
+  border-radius: 4px;
+  max-width: 210px;
+  float: right;
+  margin: 0.2rem 0 1rem 1.6rem;
+  box-shadow: 0 1px 3px rgba(27, 36, 52, 0.18);
+}
+
+@media (max-width: 640px) {
+  img.portrait { float: none; display: block; margin: 0 auto 1.2rem; }
+}
+
+figure figcaption {
+  color: $muted;
+  font-size: 0.9rem;
+}
+
+// Research figures
+.research-figure {
+  max-width: 850px;
+  margin: 1.5rem auto;
+}
+
+.research-figure > p:last-child {
+  color: $muted;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0.5rem 0 0;
+}
+
+.research-image {
+  display: block;
+  width: min(100%, 700px);
+  height: auto;
+  margin: 0 auto;
+}
+
+// The comparison image includes two colorbars along its lower edge.
+// Crop them in the page layout while retaining the source image.
+.ddm-crop {
+  width: 100%;
+  aspect-ratio: 2796 / 1580;
+  overflow: hidden;
+}
+
+.ddm-crop p,
+.research-sequence p {
+  margin: 0;
+}
+
+.ddm-crop img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research-sequence {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.research-sequence img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .research-sequence {
+    grid-template-columns: 1fr;
+    max-width: 32rem;
+    margin: 0 auto;
+  }
+}
+
+// Embedded CV PDF
+.cv-embed {
+  display: block;
+  width: 100%;
+  height: 85vh;
+  min-height: 500px;
+  border: 1px solid $rule;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+// Language switcher: two flags shown together, the current language dimmed
+// and inert so clicking it is a no-op, the other one links to the
+// translated version of the current page (see assets/lang-switch.js).
+.lang-flag {
+  border-radius: 2px;
+  vertical-align: middle;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link:has(.lang-flag) {
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+}
+
+.nav-link.lang-active {
+  opacity: 0.45;
+  cursor: default;
+}

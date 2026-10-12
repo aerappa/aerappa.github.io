@@ -1,0 +1,33 @@
+project:
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - talks.qmd
+    - teaching.qmd
+    - cv.qmd
+  output-dir: _site
+
+website:
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Talks"
+        href: talks.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - text: '<img class="lang-flag" src="/assets/flag-us.svg" alt="English" width="21" height="14">'
+        href: /index.html
+      - text: '<img class="lang-flag" src="/assets/flag-fr.svg" alt="Français" width="21" height="14">'
+        href: /fr/index.html
+
+lang: en-US
