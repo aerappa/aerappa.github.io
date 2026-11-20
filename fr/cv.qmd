@@ -2,10 +2,32 @@
 title: "CV"
 ---
 
-*Disponible en anglais uniquement.*
+## Formation
 
-[Télécharger le PDF](../assets/cv_en.pdf)
+- Doctorat en mathématiques appliquées, Sorbonne Université & Inria Paris (équipe SERENA), France, 2024
+- Master en mathématiques appliquées, University of New Mexico, États-Unis, 2020
+- Licence (Bachelor) en mathématiques computationnelles, University of New Mexico, États-Unis, 2018
 
-```{=html}
-<iframe src="../assets/cv_en.pdf" class="cv-embed" title="Curriculum vitae"></iframe>
-```
+## Postes de recherche
+
+- Chercheur postdoctoral, Laboratoire Jacques-Louis Lions, Sorbonne Université, Paris, France, 2026 –
+- Chercheur postdoctoral, équipe POEMS, ENSTA Paris, Palaiseau, France, 2024–2026
+
+## Expérience de recherche antérieure (avant la thèse)
+
+- Stagiaire de recherche, Sandia National Laboratories, États-Unis, 2017–2020
+- Stagiaire de recherche, Voss Scientific, États-Unis, 2015–2018
+
+## Enseignement
+
+- Chargé de travaux dirigés, ENSTA Paris, France, 2024–2026
+- Assistant d’enseignement (travaux pratiques), département d’informatique, University of New Mexico, États-Unis, 2017–2018
+
+## Distinctions
+
+- SIAM CSE Student Travel Award, 2019
+- UNM Departmental Honors en mathématiques, 2018
+- UNM Van Dyke Computer Science Scholarship, 2017
+- UNM Leonard Engineering Scholarship, 2016
+
+Un CV complet est disponible sur demande.
