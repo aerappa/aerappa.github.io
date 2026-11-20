@@ -4,6 +4,7 @@ title: "Exposés"
 
 ## Conférences internationales
 
+- [JCJC Ondes 2026](https://jcjc_ondes.pages.math.cnrs.fr/) (Rouen, France, 2026)
 - [WAVE-NED Conference on Analysis, Modeling and Numerics of Waves](https://sites.cwi.nl/en/scs/events/wave-ned-conference-on-analysis-modeling-and-numerics-of-waves/) (Delft, Pays-Bas, 2026)
 - [International Conference on Computational Methods in Applied Mathematics (CMAM)](https://www.tuwien.at/en/mg/asc/event/cmam2026) (Vienne, Autriche, 2026)
 - [CANUM — Congrès National d'Analyse Numérique](https://canum2026.math.cnrs.fr/en/) (Saint-Jacut-de-la-Mer, France, 2026)
@@ -16,6 +17,7 @@ title: "Exposés"
 
 ## Séminaires sur invitation
 
+- [Séminaire de l'Université de technologie de Compiègne](https://indico.math.cnrs.fr/event/17540/) (Compiègne, France, 2026)
 - Séminaire du Laboratoire de Mathématiques d'Orsay (Orsay, France, 2026)
 - Séminaire de l'Institut de Mathématiques de Marseille (Marseille, France, 2026)
 - Séminaire du Laboratoire Jean Kuntzmann (Grenoble, France, 2026)
